@@ -20,12 +20,36 @@ export default {
     },
     extend: {
       colors: {
+        border: "var(--border)",
+        input: "var(--input)",
+        ring: "var(--ring)",
+        background: "var(--background)",
+        foreground: "var(--foreground)",
         primary: {
           DEFAULT: "#4ADE80",
-          hover: "#22c55e"
+          hover: "#22c55e",
+          foreground: "var(--primary-foreground)",
         },
-        secondary: "#F8F9FA",
-        accent: "#FF9800",
+        secondary: {
+          DEFAULT: "#F8F9FA",
+          foreground: "var(--secondary-foreground)",
+        },
+        accent: {
+          DEFAULT: "#FF9800",
+          foreground: "var(--accent-foreground)",
+        },
+        muted: {
+          DEFAULT: "var(--muted)",
+          foreground: "var(--muted-foreground)",
+        },
+        popover: {
+          DEFAULT: "var(--popover)",
+          foreground: "var(--popover-foreground)",
+        },
+        card: {
+          DEFAULT: "var(--card)",
+          foreground: "var(--card-foreground)",
+        },
       },
       keyframes: {
         slideIn: {
