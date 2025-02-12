@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import Header from "@/components/Header";
 import ProductCard from "@/components/ProductCard";
@@ -35,6 +34,76 @@ const products: Product[] = [
     category: "Fruits",
     image: "/lovable-uploads/f53b054c-4d95-49df-a190-2f047be2ae7d.png",
   },
+  {
+    id: 8,
+    name: "Fresh Strawberries",
+    price: 180,
+    category: "Fruits",
+    image: "https://images.unsplash.com/photo-1464965911861-746a04b4bca6?auto=format&fit=crop&q=80&w=3000",
+  },
+  {
+    id: 9,
+    name: "Premium Walnuts",
+    price: 850,
+    category: "Dry Fruits",
+    image: "https://images.unsplash.com/photo-1594321120241-ef2fc66afdc3?auto=format&fit=crop&q=80&w=3000",
+  },
+  {
+    id: 10,
+    name: "Sweet Cherries",
+    price: 400,
+    category: "Fruits",
+    image: "https://images.unsplash.com/photo-1528821154947-1aa3d1b74941?auto=format&fit=crop&q=80&w=3000",
+  },
+  {
+    id: 11,
+    name: "Ripe Pears",
+    price: 160,
+    category: "Fruits",
+    image: "https://images.unsplash.com/photo-1514756331096-242fdeb70d4a?auto=format&fit=crop&q=80&w=3000",
+  },
+  {
+    id: 12,
+    name: "Premium Almonds",
+    price: 900,
+    category: "Dry Fruits",
+    image: "https://images.unsplash.com/photo-1508061253366-f7da158b6d46?auto=format&fit=crop&q=80&w=3000",
+  },
+  {
+    id: 13,
+    name: "Fresh Apricots",
+    price: 220,
+    category: "Fruits",
+    image: "https://images.unsplash.com/photo-1501746877-14782b958e5f?auto=format&fit=crop&q=80&w=3000",
+  },
+  {
+    id: 14,
+    name: "Premium Saffron",
+    price: 1500,
+    category: "Spices",
+    image: "https://images.unsplash.com/photo-1584284675265-4d35699e5b83?auto=format&fit=crop&q=80&w=3000",
+  },
+  {
+    id: 15,
+    name: "Sweet Mangoes",
+    price: 200,
+    category: "Fruits",
+    image: "https://images.unsplash.com/photo-1553279768-865429fa0078?auto=format&fit=crop&q=80&w=3000",
+  },
+  {
+    id: 16,
+    name: "Fresh Citrus",
+    price: 140,
+    category: "Fruits",
+    image: "https://images.unsplash.com/photo-1611080626919-7cf5a9dbab5b?auto=format&fit=crop&q=80&w=3000",
+  },
+  {
+    id: 17,
+    name: "Natural Honey",
+    price: 450,
+    category: "Natural Products",
+    image: "https://images.unsplash.com/photo-1587049352846-4a222e784d38?auto=format&fit=crop&q=80&w=3000",
+  }
 ];
 
 const Fruits = () => {
