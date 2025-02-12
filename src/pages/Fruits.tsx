@@ -82,7 +82,7 @@ const products: Product[] = [
     name: "Premium Saffron",
     price: 1500,
     category: "Spices",
-    image: "https://images.unsplash.com/photo-1584284675265-4d35699e5b83?auto=format&fit=crop&q=80&w=3000",
+    image: "/lovable-uploads/21aec9ac-aa2a-4466-95ff-dbb8db795e86.png",
   },
   {
     id: 15,
