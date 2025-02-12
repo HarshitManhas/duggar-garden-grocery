@@ -28,6 +28,13 @@ const products: Product[] = [
     category: "Fruits",
     image: "https://images.unsplash.com/photo-1582979512210-99b6a53386f9?auto=format&fit=crop&q=80&w=3000",
   },
+  {
+    id: 7,
+    name: "Kimb",
+    price: 60,
+    category: "Fruits",
+    image: "/lovable-uploads/f53b054c-4d95-49df-a190-2f047be2ae7d.png",
+  },
 ];
 
 const Fruits = () => {
