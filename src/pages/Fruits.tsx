@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import Header from "@/components/Header";
 import ProductCard from "@/components/ProductCard";
@@ -46,7 +47,7 @@ const products: Product[] = [
     name: "Premium Walnuts",
     price: 850,
     category: "Dry Fruits",
-    image: "https://images.unsplash.com/photo-1594321120241-ef2fc66afdc3?auto=format&fit=crop&q=80&w=3000",
+    image: "/lovable-uploads/f25493b1-e7f7-49f4-a74a-56ea2dc644b7.png",
   },
   {
     id: 10,
