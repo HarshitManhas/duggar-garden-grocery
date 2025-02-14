@@ -75,7 +75,7 @@ const products: Product[] = [
     name: "Fresh Apricots",
     price: 220,
     category: "Fruits",
-    image: "https://images.unsplash.com/photo-1501746877-14782b958e5f?auto=format&fit=crop&q=80&w=3000",
+    image: "/lovable-uploads/3542fba2-eb2b-48b6-8e5c-c0647d299345.png",
   },
   {
     id: 14,
