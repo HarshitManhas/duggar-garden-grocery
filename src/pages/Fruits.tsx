@@ -103,7 +103,7 @@ const products: Product[] = [
     name: "Natural Honey",
     price: 450,
     category: "Natural Products",
-    image: "https://images.unsplash.com/photo-1587049352846-4a222e784d38?auto=format&fit=crop&q=80&w=3000",
+    image: "/lovable-uploads/55245a15-691b-4d2a-9736-008e7c28aff1.png",
   }
 ];
 
