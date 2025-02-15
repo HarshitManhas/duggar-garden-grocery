@@ -28,6 +28,48 @@ const products: Product[] = [
     category: "Vegetables",
     image: "https://images.unsplash.com/photo-1576045057995-568f588f82fb?auto=format&fit=crop&q=80&w=3000",
   },
+  {
+    id: 18,
+    name: "Fresh Broccoli",
+    price: 70,
+    category: "Vegetables",
+    image: "https://images.unsplash.com/photo-1584270354949-c26b0d5b4a0c?auto=format&fit=crop&q=80&w=3000",
+  },
+  {
+    id: 19,
+    name: "Bell Peppers",
+    price: 90,
+    category: "Vegetables",
+    image: "https://images.unsplash.com/photo-1563565375-f3fdfdbefa91?auto=format&fit=crop&q=80&w=3000",
+  },
+  {
+    id: 20,
+    name: "Fresh Cucumber",
+    price: 45,
+    category: "Vegetables",
+    image: "https://images.unsplash.com/photo-1604977042946-1eecc30f269e?auto=format&fit=crop&q=80&w=3000",
+  },
+  {
+    id: 21,
+    name: "Purple Eggplant",
+    price: 65,
+    category: "Vegetables",
+    image: "https://images.unsplash.com/photo-1613884823276-964edc7d8ce6?auto=format&fit=crop&q=80&w=3000",
+  },
+  {
+    id: 22,
+    name: "Green Lettuce",
+    price: 35,
+    category: "Vegetables",
+    image: "https://images.unsplash.com/photo-1622205313162-be1d5712a43f?auto=format&fit=crop&q=80&w=3000",
+  },
+  {
+    id: 23,
+    name: "Fresh Cauliflower",
+    price: 75,
+    category: "Vegetables",
+    image: "https://images.unsplash.com/photo-1568584711075-3d021a7c3ca3?auto=format&fit=crop&q=80&w=3000",
+  }
 ];
 
 const Vegetables = () => {
